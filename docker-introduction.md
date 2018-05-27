@@ -18,4 +18,5 @@
 
 - 下面的图片比较了 Docker 和传统虚拟化方式的不同：
 ![传统虚拟化技术](https://github.com/yeaheo/hello.linux/blob/master/images/virtualization.png "传统虚拟化技术")
+
 ![docker虚拟化技术](https://github.com/yeaheo/hello.linux/blob/master/images/docker.png "docker 容器虚拟化技术")

@@ -19,3 +19,15 @@
 - 下面的图片比较了 Docker 和传统虚拟化方式的不同：
 ![传统虚拟化技术](https://github.com/yeaheo/hello.linux/blob/master/images/virtualization.png "传统虚拟化技术")
 ![docker虚拟化技术](https://github.com/yeaheo/hello.linux/blob/master/images/docker.png "docker 容器虚拟化技术")
+
+### Docker 容器三大概念
+
+- Docker 容器有三个基本概念，分别是：
+
+  ```bash
+  镜像（image）
+  容器（container）
+  仓库（repository）
+  ```
+
+- 我们需要掌握这三个概念才能更好的利用 Docker 容器。

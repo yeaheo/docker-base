@@ -17,5 +17,5 @@
 - **更轻松的维护和扩展**。 Docker 使用的分层存储以及镜像的技术，使得应用重复部分的复用更为容易，也使得应用的维护更新更加简单，基于基础镜像进一步扩展镜像也更加的容易。
 
 - 下面的图片比较了 Docker 和传统虚拟化方式的不同：
-![传统虚拟化技术](../../images/virtualization.png "传统虚拟化技术")
-![docker虚拟化技术](../../images/docker.png "docker 容器虚拟化技术")
+![传统虚拟化技术](https://github.com/yeaheo/hello.linux/blob/master/images/virtualization.png "传统虚拟化技术")
+![docker虚拟化技术](https://github.com/yeaheo/hello.linux/blob/master/images/docker.png "docker 容器虚拟化技术")

@@ -29,6 +29,7 @@
   docker.io/nginx     latest              ae513a47849c        3 weeks ago         109 MB
   docker.io/centos    latest              e934aafc2206        7 weeks ago         199 MB
   ```
+  
   > 其实也可以用 `docker images` 查看本地镜像，建议用 `docker image ls` 。
 
 - 列出的镜像一般包括：仓库名、标签、ID、创建时间及镜像大小。
@@ -124,6 +125,9 @@
   ```bash
   docker image rm [选项] <镜像1> [<镜像2> ...]
   ```
+
+  > 删除镜像也可以用 `docker rmi` 命令，建议用 `docker image rm`
+
 - **用 ID、镜像名、摘要删除镜像**
 - 其中，<镜像> 可以是 镜像短 ID、镜像长 ID、镜像名 或者 镜像摘要。
 - `docker image ls` 默认列出的就已经是短 ID 了，一般取前3个字符以上，只要足够区分于别的镜像就可以了。
@@ -135,6 +139,7 @@
   Deleted: sha256:e934aafc22064b7322c0250f1e32e5ce93b2d19b356f4537f5864bd102e8531f
   Deleted: sha256:43e653f84b79ba52711b0f726ff5a7fd1162ae9df4be76ca1de8370b8bbf9bb0
   ```
+ 
   > `-f` 选项表示强制删除。
 
 - 我们也可以用镜像名，也就是 <仓库名>:<标签>，来删除镜像。

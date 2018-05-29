@@ -88,3 +88,11 @@
 
 - Docker CE is installed and running. You need to use sudo to run Docker commands. Continue to Linux postinstall to allow non-privileged users to run Docker commands and for other optional configuration steps.
 
+### yum 安装 docker
+- 除了安装 ce 版本的 docker，我们还可以用 rpm 包管理工具 yum 安装 docker，具体参考如下：
+
+  ```bash
+  yum -y install epel-release
+  yum -y install docker
+  ```
+

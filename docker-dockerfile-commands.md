@@ -138,7 +138,8 @@
   EXPOSE 8080
   ```
 
-- **WORKDIR 指定工作目录**
+### WORKDIR 指定工作目录
+
 - 格式：
 
   ```bash
